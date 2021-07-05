@@ -3,11 +3,9 @@
 <div class="content" role="main">
   <ul>
     <li *ngFor="let categoria of aCategorias">
-      <nav>
-        <a routerLink="/{{ categoria.descripcion }}">{{
-          categoria.descripcion
-        }}</a>
-      </nav>
+      <a routerLink="/{{ categoria.descripcion }}">{{
+        categoria.descripcion
+      }}</a>
     </li>
   </ul>
 </div>
