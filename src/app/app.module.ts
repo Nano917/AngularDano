@@ -8,6 +8,7 @@ import { CategoriasComponent } from './components/categorias/categorias.componen
 import { HeaderComponent } from './components/header/header.component';
 import { VehiculosComponent } from './components/vehiculos/vehiculos.component';
 import { InmuebleComponent } from './components/inmueble/inmueble.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { InmuebleComponent } from './components/inmueble/inmueble.component';
     HeaderComponent,
     VehiculosComponent,
     InmuebleComponent,
+    HomeComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],

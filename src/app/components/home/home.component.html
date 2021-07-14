@@ -1,0 +1,11 @@
+<p>home works!</p>
+
+<div class="content" role="main">
+  <ul>
+    <li *ngFor="let categoria of aCategorias">
+      <a routerLink="/{{ categoria.descripcion }}">{{
+        categoria.descripcion
+      }}</a>
+    </li>
+  </ul>
+</div>
