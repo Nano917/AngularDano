@@ -7,6 +7,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CategoriasComponent } from './components/categorias/categorias.component';
 import { HeaderComponent } from './components/header/header.component';
 import { VehiculosComponent } from './components/vehiculos/vehiculos.component';
+import { InmuebleComponent } from './components/inmueble/inmueble.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { VehiculosComponent } from './components/vehiculos/vehiculos.component';
     CategoriasComponent,
     HeaderComponent,
     VehiculosComponent,
+    InmuebleComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
