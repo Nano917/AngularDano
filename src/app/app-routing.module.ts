@@ -5,6 +5,7 @@ import { InmuebleComponent } from './components/inmueble/inmueble.component';
 import { VehiculosComponent } from './components/vehiculos/vehiculos.component';
 
 const routes: Routes = [
+  { path: '', component: HomeComponent },
   { path: 'Vehiculos', component: VehiculosComponent },
   { path: 'Inmueble', component: InmuebleComponent },
   { path: 'Home', component: HomeComponent },
