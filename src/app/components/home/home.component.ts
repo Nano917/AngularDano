@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { categoria } from 'src/app/models/categoria';
+import { RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-home',
